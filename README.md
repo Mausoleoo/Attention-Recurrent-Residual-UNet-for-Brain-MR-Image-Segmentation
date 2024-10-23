@@ -71,4 +71,6 @@ model = AttentionR2UNet(input_channels=3, num_classes=1)
 
 # Discussion 
 
+Although the model was trained on images from various slices of the brain, it performed well in segmenting the FLAIR abnormalities. With more refined data preprocessing, the model's performance could likely be improved, potentially achieving even higher accuracy. The input images were normalized to values between 0 and 1, ensuring consistent data scaling for better convergence. While the model was trained for a total of 30 epochs, it reached satisfactory results between 10 and 15 epochs, indicating that fewer training iterations might be sufficient for effective segmentation.
 
+The model was trained on Google Colab using an A100 GPU.
