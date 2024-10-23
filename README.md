@@ -1,4 +1,4 @@
-# Attention Recurrent Residual UNet for Brain MR Image Segmentation
+# Attention Recurrent Residual U-Net for Brain MR Image Segmentation
 This repository contains an implementation of an Attention Recurrent Residual UNet (AR2-UNet) for semantic segmentation of brain MR images, specifically targeting the FLAIR abnormality regions.
 
 --------------------------------------------------------------------------------------------------------------------------------
@@ -20,6 +20,11 @@ The model was trained on the provided dataset, achieving the following performan
 * Precision: 0.704
 * Recall: 0.437
 
+### Visualization
+
+![image](https://github.com/user-attachments/assets/4a5f2532-ec2e-489d-af05-e5efb5cf0aea)
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 # Dataset
@@ -33,3 +38,16 @@ The dataset used for this project comes from:
 This dataset includes brain MR images and manual FLAIR abnormality segmentation masks. The images correspond to 110 patients in the The Cancer Genome Atlas (TCGA) lower-grade glioma collection.
 
 link: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Required Libraries
+The following libraries were used:
+
+torch==2.4.1
+pillow==10.2.0
+matplotlib==3.8.3
+
+
+
+
