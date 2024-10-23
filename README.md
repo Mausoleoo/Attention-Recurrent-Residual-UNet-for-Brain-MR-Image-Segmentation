@@ -20,15 +20,16 @@ The model was trained on the provided dataset, achieving the following performan
 * Precision: 0.704
 * Recall: 0.437
 
-Dataset
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Dataset
+
 The dataset used for this project comes from:
 
-Mateusz Buda, Ashirbani Saha, Maciej A. Mazurowski: "Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm." Computers in Biology and Medicine, 2019.
-Maciej A. Mazurowski et al.: "Radiogenomics of lower-grade glioma: algorithmically-assessed tumor shape is associated with tumor genomic subtypes and patient outcomes in a multi-institutional study with The Cancer Genome Atlas data." Journal of Neuro-Oncology, 2017.
+* Mateusz Buda, Ashirbani Saha, Maciej A. Mazurowski: "Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm." Computers in Biology and Medicine, 2019.
+  
+* Maciej A. Mazurowski et al.: "Radiogenomics of lower-grade glioma: algorithmically-assessed tumor shape is associated with tumor genomic subtypes and patient outcomes in a multi-institutional study with The Cancer Genome Atlas data." Journal of Neuro-Oncology, 2017.
+  
 This dataset includes brain MR images and manual FLAIR abnormality segmentation masks. The images correspond to 110 patients in the The Cancer Genome Atlas (TCGA) lower-grade glioma collection.
 
-Dataset details:
-FLAIR sequence
-Tumor genomic clusters
-Patient data (available in data.csv)
-The dataset was obtained from The Cancer Imaging Archive (TCIA).
+link: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
