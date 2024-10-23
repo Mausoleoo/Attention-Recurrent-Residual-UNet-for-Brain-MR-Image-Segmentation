@@ -9,9 +9,16 @@ This repository contains an implementation of an Attention Recurrent Residual UN
 The architecture builds upon the U-Net model by incorporating:
 
 Recurrent Residual Blocks: To capture temporal dependencies between convolutions.
+
 Attention Mechanisms: To enhance feature selection and focus on the relevant regions during upsampling.
+
 Deconvolutional Layers: For upsampling during the decoder phase.
-Model Metrics (after training)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Results and Visualization
+
+### Model Metrics 
 The model was trained on the provided dataset, achieving the following performance metrics:
 
 * IoU: 0.373
