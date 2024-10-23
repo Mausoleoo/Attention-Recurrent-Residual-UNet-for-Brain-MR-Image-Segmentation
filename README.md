@@ -52,7 +52,9 @@ link: https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation
 The following libraries were used:
 
 torch==2.4.1
+
 pillow==10.2.0
+
 matplotlib==3.8.3
 
 
