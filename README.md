@@ -14,11 +14,11 @@ Deconvolutional Layers: For upsampling during the decoder phase.
 Model Metrics (after training)
 The model was trained on the provided dataset, achieving the following performance metrics:
 
-IoU: 0.373
-Dice Coefficient: 0.513
-Pixel Accuracy: 99.33%
-Precision: 0.704
-Recall: 0.437
+* IoU: 0.373
+* Dice Coefficient: 0.513
+* Pixel Accuracy: 99.33%
+* Precision: 0.704
+* Recall: 0.437
 
 Dataset
 The dataset used for this project comes from:
