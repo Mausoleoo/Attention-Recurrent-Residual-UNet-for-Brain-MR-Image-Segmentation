@@ -57,6 +57,18 @@ pillow==10.2.0
 
 matplotlib==3.8.3
 
+--------------------------------------------------------------------------------------------------------------------------------
 
+# Code details
+
+The code can be applied to both 1-dimensional (grayscale) and 3-dimensional (RGB) images. Additionally, it supports training with more than one class by adjusting the model parameters (input_channels for the number of input channels, and num_classes for the number of output classes).
+
+model = AttentionR2UNet(input_channels=3, num_classes=1)
+
+**Note**: If using more than one class, the loss function should be changed to CrossEntropyLoss instead of BCELoss.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Discussion 
 
 
