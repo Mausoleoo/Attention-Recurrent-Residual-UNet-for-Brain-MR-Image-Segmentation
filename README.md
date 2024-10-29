@@ -1,5 +1,10 @@
 # Attention Recurrent Residual U-Net for Brain MR Image Segmentation
-This repository contains an implementation of an Attention Recurrent Residual UNet (AR2-UNet) for semantic segmentation of brain MR images, specifically targeting the FLAIR abnormality regions.
+
+This repository contains an implementation of an Attention Recurrent Residual UNet (AR2-UNet) for semantic segmentation of brain MR images, specifically targeting the FLAIR abnormality regions. Identifying FLAIR abnormalities in brain MR images is critical in detecting and analyzing various neurological conditions, including tumors, strokes, and multiple sclerosis. A model like AR2-UNet, which is tailored to accurately capture these abnormal regions, **can significantly assist radiologists in making faster, more accurate diagnoses**. This contributes to more effective patient management, potentially allowing for earlier interventions and better patient outcomes.
+
+What is FLAIR?
+
+FLAIR, or Fluid-Attenuated Inversion Recovery, is an MRI technique that suppresses signals from cerebrospinal fluid, making it easier to see abnormalities in brain tissue. This helps highlight lesions and damage, useful for diagnosing conditions like multiple sclerosis, strokes, and tumors.
 
 --------------------------------------------------------------------------------------------------------------------------------
 # Architecture Overview
