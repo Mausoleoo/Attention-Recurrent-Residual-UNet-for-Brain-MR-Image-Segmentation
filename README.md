@@ -28,6 +28,14 @@ The model was trained on the provided dataset, achieving the following performan
 * Precision: 0.704
 * Recall: 0.437
 
+These results indicate that:
+
+* Pixel Accuracy (99.33%) is notably high, suggesting that the model correctly labels a significant number of pixels.
+  
+* IoU (0.373) and Dice Coefficient (0.513) are moderate, showing some room for improvement. These metrics suggest that the model captures FLAIR abnormalities reasonably but may miss some finer details.
+  
+* Precision (0.704) and Recall (0.437) show a trade-off: the model is better at avoiding false positives than it is at capturing all relevant abnormal areas.
+
 ### Visualization
 
 ![image](https://github.com/user-attachments/assets/4a5f2532-ec2e-489d-af05-e5efb5cf0aea)
@@ -64,11 +72,24 @@ model = AttentionR2UNet(input_channels=3, num_classes=1)
 
 --------------------------------------------------------------------------------------------------------------------------------
 
+# Future Work
+
+To improve the model’s performance, consider:
+
+* Dataset Augmentation: Increase the diversity of training images through augmentations (rotations, intensity variations) to improve recall.
+* 
+* Refinement of Attention Mechanism: Experiment with different types of attention to enhance model focus on FLAIR abnormalities.
+* 
+* Ensemble Models: Combine outputs from several architectures, such as standard U-Net and AR2-UNet, to boost performance.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 # Discussion 
 
 Although the model was trained on images from various slices of the brain, it performed well in segmenting the FLAIR abnormalities. With more refined data preprocessing, the model's performance could likely be improved, potentially achieving even higher accuracy. The input images were normalized to values between 0 and 1, ensuring consistent data scaling for better convergence. While the model was trained for a total of 30 epochs, it reached satisfactory results between 10 and 15 epochs, indicating that fewer training iterations might be sufficient for effective segmentation.
 
 The model was trained on Google Colab using an A100 GPU.
+
 
 --------------------------------------------------------------------------------------------------------------------------------
 
