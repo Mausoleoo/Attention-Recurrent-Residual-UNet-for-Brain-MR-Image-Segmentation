@@ -41,6 +41,8 @@ These results indicate that:
   
 * Precision (0.704) and Recall (0.437) show a trade-off: the model is better at avoiding false positives than it is at capturing all relevant abnormal areas.
 
+The model won’t display a mask if there is no damage in the brain.
+
 ### Visualization
 
 ![image](https://github.com/user-attachments/assets/4a5f2532-ec2e-489d-af05-e5efb5cf0aea)
