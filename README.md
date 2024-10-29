@@ -82,9 +82,7 @@ model = AttentionR2UNet(input_channels=3, num_classes=1)
 To improve the model’s performance, consider:
 
 * Dataset Augmentation: Increase the diversity of training images through augmentations (rotations, intensity variations) to improve recall.
-* 
 * Refinement of Attention Mechanism: Experiment with different types of attention to enhance model focus on FLAIR abnormalities.
-* 
 * Ensemble Models: Combine outputs from several architectures, such as standard U-Net and AR2-UNet, to boost performance.
 
 --------------------------------------------------------------------------------------------------------------------------------
